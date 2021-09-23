@@ -9,7 +9,7 @@ import myPhoto from "./images/my-photo.jpg"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
-import codepenIcon from "./images/codepen.svg"
+import linkedinIcon from "./images/linkedin.svg"
 import dribbbleIcon from "./images/dribbble.svg"
 import instagramIcon from "./images/instagram.svg"
 
@@ -18,15 +18,13 @@ export default {
   name: "Yauhen",
   headerTagline: [
     //Line 1 For Header
-    "Building digital",
+    "Yauhen Davidovich.",
     //Line 2 For Header
-    "products, brands,",
-    //Line 3 For Header
-    "and experience",
+    "I build things for the web."
   ],
   //   Header Paragraph
   headerParagraph:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+    "Front End Developer ",
 
   //Contact Email
   contactEmail: "davidovichyauhen@gmail.com",
@@ -162,10 +160,11 @@ export default {
   contactSubHeading: "Let's create your next experience together",
   social: [
     // Add Or Remove The Link Accordingly
-    { img: githubIcon, url: "https://github.com/yauhendavidovich" },
+    { img: githubIcon,
+      url: "https://github.com/yauhendavidovich" },
     {
-      img: codepenIcon,
-      url: "https://www.codepen.com/",
+      img: linkedinIcon,
+      url: "https://www.linkedin.com/in/yauhendavidovich/",
     },
     {
       img: dribbbleIcon,
