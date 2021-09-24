@@ -1,6 +1,8 @@
 import React from "react"
+import githubIcon  from "../../images/github.svg"
 
-const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
+
+const Card = ({ heading, paragraph, imgUrl, projectLink, projectPage }) => {
   return (
     <div
       className="card"
@@ -18,9 +20,16 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
           href={projectLink ? projectLink : "#"}
           target="_blank"
           rel="noopener noreferrer"
-          className="btn"
+          className="btn-icon"
         >
-          Explore
+        </a>
+        <a
+            href={projectPage ? projectPage : "#"}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn"
+        >
+          Project page
         </a>
       </div>
     </div>

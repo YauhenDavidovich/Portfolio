@@ -9,13 +9,22 @@
   background-repeat: no-repeat;
   background-position: center;
 
+
   .content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     font-family: "Open Sans";
     text-align: center;
     padding: 10px;
     opacity: 0;
     transition: all 500ms ease-in-out;
     transform: translate(0, 20px);
+    background: rgba(9,78,99,0.79);
+    backdrop-filter: blur(10px);
     cursor: pointer;
     h1 {
       font-size: 14px;
@@ -32,10 +41,25 @@
       color: white;
       padding: 10px;
       text-decoration: none;
+      &:hover {
+        color: #9e9e9e;
+      }
+
     }
     &:hover {
       opacity: 1;
       transform: translate(0, 0px);
+    }
+
+    .btn-icon{
+      background: url(../images/github.svg);
+      padding: 18px;
+      text-decoration: none;
+      margin: 7px;
+      &:hover {
+        padding: 20px;
+        margin: 5px;
+      }
     }
   }
 }
