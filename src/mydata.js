@@ -9,13 +9,16 @@ import testingIcon from "./images/testing.svg"
 import reduxIcon from "./images/redux.svg"
 import myPhoto from "./images/my-photo.jpg"
 
-//Progect Covers
+//Projects Covers
 import fancyWeather from "./images/fancy-weather-cover.jpg"
 import englishForKids from "./images/english-for-kids.jpg"
 import socialNetwork from "./images/social-network-cover.png"
-import freedomRunner from "./images/freedom-runner.jpg"
+import momentum from "./images/momentum.jpg"
+import shelter from "./images/shelter.jpg"
 import covidDashboard from "./images/covid-dashboard.jpg"
 import cards from "./images/cards.jpg"
+import restaurant from "./images/restaurant.jpg"
+import keyboard from "./images/keyboard.jpg"
 
 
 // Social Icon
@@ -70,6 +73,7 @@ export default {
             imageSrc:
             fancyWeather,
             url: "http://test.com/",
+            page: "https://fancy-weather-yauhendavidovich.netlify.app/"
         },
         {
             title: "English for kids",
@@ -81,16 +85,6 @@ export default {
             page: "https://yauhendavidovich-english-for-kids.netlify.app/",
         },
         {
-            title: "Freedom Runner",
-            para:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-
-            imageSrc:
-            freedomRunner,
-            url: "https://github.com/YauhenDavidovich/rsclone/tree/develop",
-            page: "https://freedom-runner-rsschool2020q3-yauhen-davidovich.netlify.app/",
-        },
-        {
             title: "Covid Dashboard",
             para:
                 "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
@@ -100,6 +94,46 @@ export default {
             url: "https://github.com/nkrivitsky/COVID-19-Dashboard/tree/develop",
             page: "https://covid-dashboard-yauhendavidovich-nkrivitsky-omaslov.netlify.app/"
         },
+        {
+            title: "Momentum",
+            para:
+                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+
+            imageSrc:
+            momentum,
+            url: "https://github.com/YauhenDavidovich/rsschool2020-2021/tree/momentum/momentum",
+            page: "https://rolling-scopes-school.github.io/yauhendavidovich-JS2020Q3/momentum/"
+        },
+        {
+            title: "Shelter",
+            para:
+                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+
+            imageSrc:
+            shelter,
+            url: "https://github.com/YauhenDavidovich/rsschool2020-2021/tree/shelter",
+            page: "https://rolling-scopes-school.github.io/yauhendavidovich-JS2020Q3/shelter/pages/main/main.html",
+        },
+        {
+            title: "Restaurant",
+            para:
+                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+
+            imageSrc:
+            restaurant,
+            url: "https://github.com/YauhenDavidovich/Rsschool2021-EN/tree/markup-1/layout-restaurant",
+            page: "https://restaurant-html-css-layout-yauhen-davidovich.netlify.app/",
+        },
+        {
+            title: "Vanilla JS keyboard",
+            para:
+                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+
+            imageSrc:
+            keyboard,
+            url: "https://github.com/YauhenDavidovich/Rsschool2021-EN/tree/virtual-keyboard/virtual-keyboard",
+            page: "https://virtual-keyboard-rsschool-yauhen-davidovich.netlify.app/",
+        },
 
     ],
 
@@ -107,11 +141,12 @@ export default {
 
     // About Secton --------------
     aboutParaOne:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "I'm a Software Engineer with a strong desire to build a successful career in commercial software development as a Front-end / JavaScript / React developer ",
     aboutParaTwo:
-        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "I have experience in creating SPA applications using React, Redux, ES6+, HTML, CSS.",
     aboutParaThree:
-        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Able to effectively self-manage during independent projects, as well as collaborate in a team setting",
+
     aboutImage: myPhoto,
 
     //   End About Section ---------------------
@@ -167,9 +202,9 @@ export default {
 
     //   Promotion Section --------------------------
 
-    promotionHeading: "Heading",
+    promotionHeading: "СV",
     promotionPara:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "#",
     // End Promotion Section -----------------
 
     //   Contact Section --------------

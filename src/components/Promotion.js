@@ -10,7 +10,14 @@ const Promotion = () => {
           <Fade bottom cascade>
             <h1>{data.promotionHeading}</h1>
           </Fade>
-          <p>{data.promotionPara}</p>
+          <a
+              href={data.promotionPara ? data.promotionPara : "#"}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-download"
+          >
+          </a>
+
         </div>
       </div>
     </div>

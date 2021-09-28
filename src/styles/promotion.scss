@@ -9,4 +9,16 @@
     font-size: 3rem;
     line-height: 20px;
   }
+  .btn-download {
+    background: url(../images/download-button.svg);
+    padding: 18px;
+    text-decoration: none;
+    margin: 7px;
+
+    &:hover {
+      padding: 20px;
+      margin: 5px;
+    }
+  }
+
 }
