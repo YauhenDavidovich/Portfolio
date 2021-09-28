@@ -1,10 +1,12 @@
 // Skills Icons
 import htmlIcon from "./images/html.svg"
 import cssIcon from "./images/css.svg"
-import reactIcon from "./images/react.svg"
 import jsIcon from "./images/javascript.svg"
+import tsIcon from "./images/typescript.svg"
+import reactIcon from "./images/react.svg"
+import sassIcon from "./images/sass.svg"
 import testingIcon from "./images/testing.svg"
-import codeIcon from "./images/code.svg"
+import reduxIcon from "./images/redux.svg"
 import myPhoto from "./images/my-photo.jpg"
 
 //Progect Covers
@@ -122,22 +124,32 @@ export default {
         {
             img: htmlIcon,
             para:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+                "HTML5",
         },
         {
             img: cssIcon,
             para:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+                "CSS3",
         },
         {
             img: jsIcon,
             para:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+                "JavaScript",
+        },
+        {
+            img: tsIcon,
+            para:
+                "Typescript",
         },
         {
             img: reactIcon,
             para:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+                "React",
+        },
+        {
+            img: reduxIcon,
+            para:
+                "Redux",
         },
         {
             img: testingIcon,
@@ -145,9 +157,9 @@ export default {
                 "Unit Tests, Storybook",
         },
         {
-            img: codeIcon,
+            img: sassIcon,
             para:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+                "Sass",
         },
     ],
 

@@ -29,7 +29,7 @@ const Card = ({ heading, paragraph, imgUrl, projectLink, projectPage }) => {
             rel="noopener noreferrer"
             className="btn"
         >
-          Project page
+          Live demo
         </a>
       </div>
     </div>
