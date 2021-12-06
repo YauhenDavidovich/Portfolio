@@ -63,8 +63,8 @@ export default {
             //Project Image - Add Your Project Image Here
             imageSrc:
             cards,
-            url: "https://github.com/YauhenDavidovich/cards",
-            page: "https://yauhendavidovich.github.io/cards",
+            url: "https://github.com/YauhenDavidovich/card-learning",
+            page: "https://yauhendavidovich.github.io/card-learning",
         },
         {
             title: "Fancy Weather",
@@ -141,11 +141,14 @@ export default {
 
     // About Secton --------------
     aboutParaOne:
-        "I'm a Software Engineer with a strong desire to build a successful career in commercial software development as a Front-end / JavaScript / React developer ",
+        "I come from a provincial town in Belarus, currently living in ~~Cracow~~ on the road. My interest in web development started back in 2020 when I enrolled in a course for aspiring developers at RSSchool.",
     aboutParaTwo:
-        "I have experience in creating SPA applications using React, Redux, ES6+, HTML, CSS.",
+        "Fast-forward to today, and have experience in creating SPA applications using React, Redux, ES6+, HTML, CSS. My main focus these days is to build a successful career in commercial software development as a Front-end / JavaScript / React developer.",
     aboutParaThree:
-        "Able to effectively self-manage during independent projects, as well as collaborate in a team setting",
+        "My place in the world seems to be at the intersection of creativity and logic. All projects are a problem to be solved, whether it’s to do with design or code—only the tools change. \n" +
+        "I'm quietly confident, naturally curious, and perpetually working on improving my chops one code problem at a time.\n",
+    aboutParaFour:
+        "I am always experimenting, always learning, and never bored.",
 
     aboutImage: myPhoto,
 
@@ -189,7 +192,7 @@ export default {
         {
             img: testingIcon,
             para:
-                "Unit Tests, Storybook",
+                "Unit Tests, Storybook, Jest",
         },
         {
             img: sassIcon,
@@ -204,7 +207,7 @@ export default {
 
     promotionHeading: "СV",
     promotionPara:
-    "#",
+        "https://drive.google.com/file/d/1CMyOaAilLa6MyculaMD_rDmQEjo_KPsj/view?usp=sharing",
     // End Promotion Section -----------------
 
     //   Contact Section --------------
