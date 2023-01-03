@@ -8,6 +8,7 @@ import sassIcon from "./images/sass.svg"
 import testingIcon from "./images/testing.svg"
 import reduxIcon from "./images/redux.svg"
 import myPhoto from "./images/my-photo.jpg"
+import nextJSIcon from "./images/nextjs-icon.svg"
 
 //Projects Covers
 import fancyWeather from "./images/fancy-weather-cover.jpg"
@@ -185,6 +186,11 @@ export default {
                 "React",
         },
         {
+            img: nextJSIcon,
+            para:
+                "NextJS",
+        },
+        {
             img: reduxIcon,
             para:
                 "Redux",
@@ -207,7 +213,7 @@ export default {
 
     promotionHeading: "СV",
     promotionPara:
-        "https://drive.google.com/file/d/1CMyOaAilLa6MyculaMD_rDmQEjo_KPsj/view?usp=sharing",
+        "https://drive.google.com/file/d/1fDo32BZsMFvCYNUnlQGJfgBtbtcE96yV/view?usp=sharing",
     // End Promotion Section -----------------
 
     //   Contact Section --------------
