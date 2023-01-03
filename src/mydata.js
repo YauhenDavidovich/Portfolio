@@ -9,6 +9,7 @@ import testingIcon from "./images/testing.svg"
 import reduxIcon from "./images/redux.svg"
 import myPhoto from "./images/my-photo.jpg"
 import nextJSIcon from "./images/nextjs-icon.svg"
+import graphqlIcon from "./images/graphqlIcon.svg"
 
 //Projects Covers
 import fancyWeather from "./images/fancy-weather-cover.jpg"
@@ -189,6 +190,11 @@ export default {
             img: nextJSIcon,
             para:
                 "NextJS",
+        },
+        {
+            img: graphqlIcon,
+            para:
+                "GraphQL",
         },
         {
             img: reduxIcon,
