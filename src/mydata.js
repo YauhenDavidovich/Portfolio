@@ -145,7 +145,7 @@ export default {
     aboutParaOne:
         "I come from a provincial town in Belarus, currently living in ~~Cracow~~ on the road. My interest in web development started back in 2020 when I enrolled in a course for aspiring developers at RSSchool.",
     aboutParaTwo:
-        "Fast-forward to today, and have experience in creating SPA applications using React, Redux, ES6+, HTML, CSS. My main focus these days is to build a successful career in commercial software development as a Front-end / JavaScript / React developer.",
+        "Fast-forward to today, and have experience in creating web sites and applications using React, Redux, ES6+, NextJS, GraphQL. My main focus these days is to build a successful career in commercial software development as a frontend developer.",
     aboutParaThree:
         "My place in the world seems to be at the intersection of creativity and logic. All projects are a problem to be solved, whether it’s to do with design or code—only the tools change. \n" +
         "I'm quietly confident, naturally curious, and perpetually working on improving my chops one code problem at a time.\n",
